@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #444d51;
+}
+header {
+    width: 876px;
+    height: 187px;
+    background: #181818;
+    float: right;
+    z-index: 1;
+    margin-top: -100px;
+}
+.title {
+    font-family: ProximaNova, sans-serif;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 62px;
+    color: #777777;
+    letter-spacing: 7px;
+}
+input {
+    border: none;
+    margin-left: 62px;
+    height: 75px;
+    width: 814px;
+    background-color: #181818;
+    border-bottom: 2px solid #777777;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+input:focus {
+    outline: none;
+}
+section {
+    background: #f7bd2c;
+    width: 812px;
+    height: 76px;
+    padding-left: 40px;
+    padding-top: 20px;
+    z-index: 1;
+    float: right;
+}
+ul {
+    vertical-align: middle;
+}
+li {
+    display: inline-block;
+    opacity: 0.5;
+}
+li:nth-child(4) {
+    opacity: 1;
+}
+main {
+    width: 1060px;
+    height: 752px;
+    background: white;
+    padding-left: 67px;
+    padding-right: 134px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 30;
+    margin-top: 150px;
+}
+div {
+    border-left: 2px solid #e8eced;
+    padding-top: 200px;
+    padding-left: 55px;
+    height: 100%;
+}
+button  {
+    border: none;
+    background: #f7bd2c;
+    height: 30px;
+    width: 30px;
+    margin-right: 25px;
+}
+img:hover {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.roy-b {
+    font-family: ProximaNova, sans-serif;
+    font-weight: 400;
+    color: #777777;
+    letter-spacing: 6px;
+}
+h1 {
+    font-family: "Futura PT", sans-serif;
+    color: #2a2a2a;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    font-size: 3em;
+}
+h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+.main-text {
+    font-family: Georgia, serif;
+    margin-top: 40px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+span {
+    font-style: italic;
+}
